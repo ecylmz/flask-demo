@@ -29,7 +29,7 @@ jobs:
         NAME: CI/CD World
 
   deploy:
-    needs: build-and-test
+    needs: test
     runs-on: ubuntu-latest
     if: success()
     steps:
