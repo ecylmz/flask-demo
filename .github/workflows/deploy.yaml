@@ -27,7 +27,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest
+        uv run python -m pytest
       env:
         NAME: CI/CD World
 
