@@ -13,4 +13,4 @@ def test_home():
     response = client.get("/")
 
     # Check if the response matches the expected output
-    assert response.data == b"Hello, Cezmi. Welcome to the CI/CD World!1"
+    assert response.data == b"Hello, Cezmi. Welcome to the CI/CD World!11"
